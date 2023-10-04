@@ -7,9 +7,10 @@ Antibiotic-resistance Acinetobacter baumannii is a very important nosocomial pat
 ```shell
 supplementary_data/Supplementary_Data.pdf
 ```
-
 2. Supplementary Table S1, clustering table: 
-* supplementary_data/Table_S1.xlsx.
+```commandline
+supplementary_data/Table_S1.xlsx
+```
 3. Supplementary Table S2, cluster labeling table: 
 * supplementary_data/Table_S2.xlsx. 
 4. Supplementary Table S3, table with 10% of clusters with manually assigned labels: 
