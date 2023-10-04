@@ -17,32 +17,25 @@ abbreviation from PubMed system.
 * From May 2022 to May 2023 Lemmatized: input_data/abs-2022-2023_lemmatized.txt 
 
 ##  Scripts
+1. Download PMID, title, abstract, publication date, authors and journal ISO
+abbreviation from PubMed system.
 * scripts/abstrsct_ext.py
 
-Download PMID, title, abstract, publication date, authors and journal ISO
-abbreviation from PubMed system.
-
+2. Title and abstract lemmatization with Stanza.
 * scripts/lemmas_with_stanza.py
 
-Title and abstract lemmatization with Stanza.
-
+3. Transformation of each publication into a numeric vector using the tf-idf weighting scheme.
 * scripts/tf-idf.py
 
-Transformation of each publication into a numeric vector using the tf-idf weighting scheme.
-
+4. Dimensionality reduction of the tf-idf matrix using a truncated singular value decomposition method (truncated-SVD).
 * scripts/svd_pca.py
 
-Dimensionality reduction of the tf-idf matrix using a truncated singular value decomposition method (truncated-SVD).
-
+5. Quality of different clustering analyses with values of k from 50 to 500 using the Silhouette coefficient.
 * scripts/silhouette.py
 
-Quality of different clustering analyses with values of k from 50 to 500 using the Silhouette coefficient.
-
+6. Clustering with k = 113.
 * scripts/clustering.py
 
-Clustering with k = 113.
-
+7. Cluster prediction for new publications.
 * scripts/clustering_prediction.py
-
-Cluster prediction for new publications.
 
