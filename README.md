@@ -1,6 +1,5 @@
-# Research trends of _Acinetobacter baumannii_ 
+# Unsupervised learning and natural language processing point out bias in research trends of a superbug 
 
-Unsupervised learning and natural language processing point out bias in research trends of Acinetobacter baumannii
 
 ## Supplementary data
 * Description of supplementary tables: Supplementary_Data.pdf
