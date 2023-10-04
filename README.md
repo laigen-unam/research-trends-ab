@@ -1,5 +1,9 @@
 # Unsupervised learning and natural language processing point out bias in research trends of a superbug 
-
+## ABSTRACT 
+### Motivation
+Antibiotic-resistance Acinetobacter baumannii is a very important nosocomial pathogen worldwide. Thousands of studies have been conducted about this pathogen. However, there has not been any attempt to use all this information to highlight the research trends concerning this pathogen. Here we use unsupervised learning and natural language processing (NLP), two areas of Artificial Intelligence, to analyse the most extensive database of articles created (5500+ articles, from 851 different journals, published over 3 decades). 
+### Results
+Clustering k-means found 113 theme clusters, which were defined with representative terms automatically obtained with topic modelling, summarising different research areas. The biggest clusters, all with over 100 articles, are biased toward multidrug resistance, carbapenem resistance, clinical treatment, and nosocomial infections. However, we also found that some research areas, such as ecology, have received very little attention. This approach allowed us to study research themes over time unveiling those of recent interest, such as the use of cefiderocol (a recently approved antibiotic) against A. baumannii . Our results show that unsupervised learning, NLP and topic modelling can be used to describe and analyse the research themes for particular infectious diseases. This strategy should be very useful to analyse other ESKAPE pathogens.
 
 ## Supplementary data
 * Description of supplementary tables: Supplementary_Data.pdf
