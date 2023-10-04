@@ -61,7 +61,7 @@ scripts/svd_pca.py
 ```shell
 scripts/silhouette.py
 ```
-6. Clustering.
+6. Clustering k-means.
 ```shell
 scripts/clustering.py
 ```
