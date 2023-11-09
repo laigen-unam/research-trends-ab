@@ -5,7 +5,7 @@ Antibiotic-resistance Acinetobacter baumannii is a very important nosocomial pat
 ## Supplementary data
 1. Description of supplementary tables
 ```shell
-supplementary_data/Frontiers_Supplementary_Material.pdf
+supplementary_data/Supplementary_Data.pdf
 ```
 2. Supplementary Table S1, clustering table: 
 ```shell
@@ -37,4 +37,35 @@ input_data/abs-2022-2023.txt
 4. From May 2022 to May 2023 Lemmatized: 
 ```shell
 input_data/abs-2022-2023_lemmatized.txt 
+```
+
+##  Scripts
+1. Download PMID, title, abstract, publication date, authors and journal ISO
+abbreviation from PubMed system.
+```shell
+scripts/abstrsct_ext.py
+```
+2. Title and abstract lemmatization with Stanza.
+```shell
+scripts/lemmas_with_stanza.py
+```
+3. Transformation of each publication into a numeric vector using the tf-idf weighting scheme.
+```shell
+scripts/tf-idf.py
+```
+4. Dimensionality reduction of the tf-idf matrix using a truncated singular value decomposition method (truncated-SVD).
+```shell
+scripts/svd_pca.py
+```
+5. Quality of different clustering analyses with values of k from 50 to 500 using the Silhouette coefficient.
+```shell
+scripts/silhouette.py
+```
+6. Clustering k-means.
+```shell
+scripts/clustering.py
+```
+7. Cluster prediction for new publications.
+```shell
+scripts/clustering_prediction.py
 ```
