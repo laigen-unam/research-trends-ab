@@ -11,7 +11,7 @@ supplementary_data/Supplementary_Material.pdf
 ```shell
 supplementary_data/Table_S1.xlsx
 ```
-3. Supplementary Table S2, cluster labeling table.
+3. Supplementary Table S2, cluster labelling table.
 ```shell
 supplementary_data/Table_S2.xlsx. 
 ```
